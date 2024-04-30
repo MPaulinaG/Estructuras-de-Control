@@ -1,11 +1,9 @@
-// const ingrese = prompt("Ingrese un número:");
-const numero = parseInt(prompt("Ingrese un número:"));
-
-if (numero > 0) {
-     console.log("El número es positivo.");
-} else if (numero === 0) {
-    console.log("El número es cero.");
+let numero = parseInt(prompt("Ingrese número"));
+if (numero === 0) {
+    document.write ("El número es Cero");
+}
+else if (numero > 0) {
+    document.write ("Es un número Positivo");
 } else {
-    console.log("El número es negativo.");
-} 
-
+    document.write ("Es un número negativo");
+}
