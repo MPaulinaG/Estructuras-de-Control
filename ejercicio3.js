@@ -6,11 +6,10 @@ for (var i = 1; i <= 5; i++) {
     if (edad > 0) {
         Edades += edad;
     } else {
-        alert("La edad ingresada no es válida. Por favor ingresa un número mayor que cero.");
+        alert("La edad ingresada no es válida.");
         i--; 
     }
 }
-
 var edadPromedio = Edades / 5;
 
 if (edadPromedio >= 18) {
